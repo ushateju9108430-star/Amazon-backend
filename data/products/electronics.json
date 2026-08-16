@@ -1,0 +1,44 @@
+[
+  {
+    "id": "P001",
+    "sku": "ELEC-001",
+    "title": "Dell Inspiron Laptop",
+    "slug": "dell-inspiron-laptop",
+    "description": "15-inch laptop for programming and everyday work",
+    "brand": "Dell",
+    "price": 55000,
+    "discount_percentage": 5,
+    "category_id": "electronics",
+    "is_active": true,
+    "stock_quantity": 10,
+    "created_at": "2026-08-01T10:00:00"
+  },
+  {
+    "id": "P002",
+    "sku": "ELEC-002",
+    "title": "HP Pavilion Laptop",
+    "slug": "hp-pavilion-laptop",
+    "description": "Powerful laptop for students and developers",
+    "brand": "HP",
+    "price": 62000,
+    "discount_percentage": 8,
+    "category_id": "electronics",
+    "is_active": true,
+    "stock_quantity": 8,
+    "created_at": "2026-08-02T10:00:00"
+  },
+  {
+    "id": "P003",
+    "sku": "ELEC-003",
+    "title": "Wireless Bluetooth Headphones",
+    "slug": "wireless-bluetooth-headphones",
+    "description": "Wireless headphones with noise cancellation",
+    "brand": "Sony",
+    "price": 8500,
+    "discount_percentage": 10,
+    "category_id": "electronics",
+    "is_active": true,
+    "stock_quantity": 20,
+    "created_at": "2026-08-03T10:00:00"
+  }
+]
