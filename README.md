@@ -160,3 +160,27 @@ docker-compose up --build
 | Role | Email | Password |
 |---|---|---|
 | **Admin** | `admin@amazon.com` | `Admin@123456` |
+---
+
+## Backend Architecture
+
+The Amazon Backend follows a modular layered architecture to keep the code easy to maintain, test, and extend.
+
+```text
+Client
+   │
+   ▼
+FastAPI Routers
+   │
+   ▼
+Service Layer
+   │
+   ▼
+Repository Layer
+   │
+   ├───────────────┬────────────────┐
+   ▼               ▼                ▼
+SQL Database    MongoDB        File System
+   │               │                │
+Core User Data   Flexible        Product
+                 Metadata         Catalog
