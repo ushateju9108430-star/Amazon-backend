@@ -1,5 +1,16 @@
 """
-Product Catalog Endpoints (/api/v1/products).
+Product Catalog API Router.
+
+This module exposes HTTP endpoints for product operations.
+
+Responsibilities:
+- Handle incoming API requests.
+- Validate request parameters through FastAPI/Pydantic.
+- Apply authentication and role-based access where required.
+- Delegate business logic to ProductService.
+
+Business logic and database access should remain outside
+this router.
 """
 from typing import List, Optional
 from fastapi import APIRouter, Depends, Query, status
